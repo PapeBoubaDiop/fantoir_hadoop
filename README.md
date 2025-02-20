@@ -98,7 +98,7 @@ Hadoop refuse d'écrire dans un répertoire de sortie existant. Dans le code de 
 hdfs dfs -rm -r /output
 ```
 
-**Conclusion**
+# **Conclusion**
 
 Ce workflow vous permet de déployer un cluster Hadoop dans Docker, de charger des données dans HDFS, d'exécuter un job MapReduce pour compter le nombre de voies par commune et de récupérer les résultats sur votre machine hôte. Adaptez ces étapes en fonction de vos besoins spécifiques et consultez la documentation Hadoop pour plus de détails.
 
