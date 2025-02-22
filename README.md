@@ -60,7 +60,7 @@ hdfs dfs -put /data/FANTOIR1022 /input
 Lancez le job MapReduce en utilisant le JAR déployé dans le volume /data du conteneur. Le job lira les données depuis /input et écrira les résultats dans /output :
 
 ```bash
-hadoop jar /data/FantoirJob.jar com.fantoir.mapper.FantoirDriver /input /output
+hadoop jar /data/CommuneCount.jar CommuneCount /input /output
 ```
 
 ### 7. Consulter les résultats sur HDFS
